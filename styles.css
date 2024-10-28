@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #5B84B1FF; /* Azul */
+    --primary-color-dark: rgb(75, 114, 155); /* Azul */
+    --accent-color: #FC766AFF;  /* Rojo coral */
+    --accent-color-dark: rgb(209, 86, 75);  /* Rojo coral */
+    --white: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Arial';
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, var(--primary-color) 50%, var(--accent-color) 50%);
+    color: var(--primary-color);
+  }
+  
+  .login-container {
+    width: 400px;
+    padding: 40px;
+    background: var(--white);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    color: var(--primary-color);
+  }
+
+  .login-container a {
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .input-container {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .input-container label {
+    font-size: 1.2em;
+    color: var(--primary-color);
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+
+  .volver {
+    background-color: var(--white);
+    border: 1.6px solid var(--accent-color);
+    color: var(--accent-color);
+    margin-top: 12px;
+    }
+    .volver:hover {
+        background-color: var(--accent-color);
+        color: var(--white);     
+        padding:15px;
+        font-weight: bold;
+    }
+
+
+  .login {
+    background-color: var(--accent-color);
+  }
+    .login:hover {
+        background-color: var(--accent-color-dark);
+    }
+        
+  .registro {
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+    .registro:hover {
+        background-color: var(--primary-color-dark);
+    }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro Moderno</title>
+  <link rel="stylesheet" href="style-registro.css">
+</head>
+<body>
+  <div class="register-container">
+    <h2>Registro</h2>
+    <form>
+      <div class="input-container">
+        <label for="fullname" class="sub">Nombre Completo</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div class="input-container">
+        <label for="email" class="sub">Correo Electrónico</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-container">
+        <label for="username" class="sub">Usuario</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-container">
+        <label for="password" class="sub">Contraseña</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-container">
+        <label for="confirm-password" class="sub">Confirmar Contraseña</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <button type="button" class="btn login" onclick="window.location.href='index.html'">Volver</button>
+      <button type="submit" class="btn registro">Registrarse</button>
+    </form>
+  </div>
+
+</body>
+</html>
